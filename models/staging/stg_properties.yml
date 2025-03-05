@@ -1,0 +1,10 @@
+sources:
+  - name: "Snowflake source stg"
+    description: "{{ doc('orders') }}"
+
+    database: DB_ECOMM
+    schema: RAW
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
